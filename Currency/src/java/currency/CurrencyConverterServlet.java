@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet(name = "CurrencyConverterServlet", urlPatterns = {"/CurrencyConverterServlet"})
 public class CurrencyConverterServlet extends HttpServlet {
     
-    private static final String API_KEY = "9c613cee31c222e4c3eb5334"; // Place your API key here.
+    private static final String API_KEY = ""; // Place your API key here.
     private static final String API_URL = "https://v6.exchangerate-api.com/v6/"+API_KEY+"/latest/";
     private double rates;
 
