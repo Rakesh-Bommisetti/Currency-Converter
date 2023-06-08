@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Currency Converter</title></head><body>
+        <h2>Currency Converter</h2>
+        <form action="CurrencyConverterServlet" method="post">
+            Amount: <input name="amount" required="" type="text"><br><br>
+            From: <select name="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+            </select><br><br>
+            To: <select name="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="INR">INR</option>
+            </select><br><br>
+            <input type="submit" value="Convert"><br><br>
+        </form>
+    </body>
+</html>
